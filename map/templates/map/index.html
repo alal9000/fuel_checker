@@ -1,0 +1,18 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>Maps</title>
+    </head>
+    <body>
+
+        <div id="map" style="height: 1000px; width: 1000px;"></div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="{% static 'script.js '%}"></script>
+        <script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAmDZeUiC1faUA4am7r7oZggdRMyvnOl6s&libraries=places&callback=initGoogle'></script>
+        
+    </body>
+</html>
