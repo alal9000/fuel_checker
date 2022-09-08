@@ -1,8 +1,6 @@
-var latlong;
-var loc;
-var station1;
-var price1;
-var map;
+var stations;
+var prices;
+var station_display;
 
 
 
@@ -39,26 +37,43 @@ function initGoogle() {
                 "method": "POST",
                 "headers": {
                   "content-type": "application/json; charset=utf-8",
-                  "authorization": "Bearer kNE36vbTAH7piGriN9t3pnBclhqo",
+                  "authorization": "Bearer qV092kn3TxUpuLdWU9hqCAw5HB7k",
                   "apikey": "LxbJIASJ7cRseNEATGHd0NgvSR8i3H55",
                   "transactionid": "5563375",
                   "requesttimestamp": "28/08/2022 10:12:20 AM"
                 },
                 "processData": false,
-                "data": `{\"fueltype\":\"U91\",\"brand\":[],\"namedlocation\":\"2070\",\"latitude\": \"-33.912293\",\"longitude\": \"150.9277402\",\"radius\":\"2\",\"sortby\":\"price\",\"sortascending\":\"false\"}`
+                "data": `{\"fueltype\":\"U91\",\"brand\":[],\"namedlocation\":\"2070\",\"latitude\": \"-33.912293\",\"longitude\": \"150.9277402\",\"radius\":\"2\",\"sortby\":\"price\",\"sortascending\":\"true\"}`
               }
               
               $.ajax(settings).done(function (response) {
-                console.log(response);
-                var x = JSON.stringify(response);
-                console.log(x);
-                price1 = response['prices'][0]['price'];
-                console.log(price1)
-                station1 = response['stations'][0]['name']
-                console.log(station1)
-                lat = response['stations'][0]['location'];
-                latlong = { lat: lat['latitude'], lng: lat['longitude'] };
-                console.log(latlong)
+                console.log(response['stations']);
+                console.log(response['prices']);
+
+                stations = response['stations']
+                prices = response['prices']
+
+                prices.sort(function(a, b) {
+                    return a.price - b.price;
+                })
+
+                let cheapest = prices[0]
+                let station_code = cheapest['stationcode']
+                console.log(station_code)
+
+                Object.values(stations).forEach(val => {
+                    if (val.code === station_code) {
+                        console.log(val)
+                        station_display = val.location
+                        delete station_display['distance']
+                        console.log(station_display)
+                    }
+                })
+
+                //console.log(list)
+
+
+
 
                 
                 const image = {
@@ -72,10 +87,10 @@ function initGoogle() {
                   };
               
                   new google.maps.Marker({
-                    position: latlong,
-                    map,
-                    title: `${station1}`,
-                    label: `${price1}`,
+                    position: {lat: station_display['latitude'], lng: station_display['longitude']},
+                    map: map,
+                    title: 'test',
+                    label: 'poop',
                     icon: image
                   });
               });
