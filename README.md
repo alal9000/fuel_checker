@@ -2,7 +2,8 @@
 
 ## 1. Project Title: Fuel Checker
 
-## 2. Project Description: This application will enable the user to check the fuel prices for 91 unleaded fuel within their local vicinity. 
+## 2. Project Description: 
+This application will enable the user to check the fuel prices for 91 unleaded fuel within their local vicinity. 
 
 ## 3. How to Run the Application:
 
