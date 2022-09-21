@@ -5,7 +5,11 @@ Hi, my name is Aaron Lal from Sydney, Australia and I am proud to be submitting 
 Fuel Checker
 
 ## 1. Project Description: 
-This application will enable the user to check the fuel prices for 91 unleaded fuel within their local vicinity. 
+This application does exactly what is says on the box, it is a fuel price checker! With the cost of living so extraordinary high these days, especially energy and fuel, I wanted to create an application that would save the user money when they decided to fill up their tank.
+
+
+
+will enable the user to check the fuel prices for 91 unleaded fuel within their local vicinity. 
 
 ## 2. How to Run the Application:
 
