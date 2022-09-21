@@ -1,19 +1,21 @@
 # Introduction:
+Hi, my name is Aaron Lal from Sydney, Australia and I am proud to be submitting my cs50w capstone project called "Fuel Checker". This readme document is split into 7 sections, each of which explain the application in greater detail. Feel free to jump forward to any particular section in which you are interested. 
 
-## 1. Project Title: Fuel Checker
+## 0. Project Title:
+Fuel Checker
 
-## 2. Project Description: 
+## 1. Project Description: 
 This application will enable the user to check the fuel prices for 91 unleaded fuel within their local vicinity. 
 
-## 3. How to Run the Application:
+## 2. How to Run the Application:
 
-## 4. How to Use the Application:
+## 3. How to Use the Application:
 
-## 5. Distinctiveness and Complexity:
+## 4. Distinctiveness and Complexity:
 
-## 6. File Structure and Contents:
+## 5. File Structure and Contents:
 
-## 7. Supplementary Infomation:
+## 6. Supplementary Infomation:
 
 # Conclusion:
 
