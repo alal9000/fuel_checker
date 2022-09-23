@@ -34,11 +34,17 @@ This application is mobile responsive and makes use of at least one model in the
 
 The main project fuel checker has within it three seperate apps which all performs seperate functions:
 
-### Map: This app provides the main map functionality which makes a call to the google maps API and the NSW fuel API and shows the users location along with the station with the cheapest fuel within 2km.
+### Map: 
 
-### Tracker: This app is like a diary of fuel purchases so you can keep track of the prices of the various fuel stations you visit. This app makes it easier to keep track of how much the fuel price is changing overall and how the prices of the individual stations are changing.
+This app provides the main map functionality which makes a call to the google maps API and the NSW fuel API and shows the users location along with the station with the cheapest fuel within 2km.
 
-### Users: This app provides the user authentication system such as register, login, logout and the user home page.
+### Tracker: 
+
+This app is like a diary of fuel purchases so you can keep track of the prices of the various fuel stations you visit. This app makes it easier to keep track of how much the fuel price is changing overall and how the prices of the individual stations are changing.
+
+### Users: 
+
+This app provides the user authentication system such as register, login, logout and the user home page.
 
 ## 6. Supplementary Infomation:
 
