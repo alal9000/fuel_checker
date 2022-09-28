@@ -1,5 +1,5 @@
 # Introduction:
-Hi, my name is Aaron Lal from Sydney, Australia and I am proud to be submitting my cs50w capstone project called "Fuel Checker". This readme document is split into 7 sections, each of which explain the application in greater detail. Feel free to jump forward to any particular section in which you are interested. 
+Hi, my name is Aaron Lal from Sydney, Australia and I am proud to be submitting my cs50w capstone project called "Fuel Checker". The application will discover your current geo-location and return the cheapeast fuel within a 2km radius within NSW, Sydney. This readme document is split into 7 sections, each of which explain the application in greater detail. Feel free to jump forward to any particular section in which you are interested. 
 
 ## 0. Project Title:
 Fuel Checker
@@ -52,6 +52,6 @@ There is no extensive third party packages required to run the application. All 
 
 # Conclusion:
 
-I had a fun time with cs50w and with this project! In fact I have already been using the application in my daily life to fill up, I already have saved a lot of money with the fuel check app! I hope you like my project and thank you cs50w.
+I had a fun time with cs50w and with this project! In fact I have already been using the application in my daily life to fill up, I already have saved a lot of money with the fuel check app! I hope you like my project and thank you to Brian and cs50w.
 
 
