@@ -37,8 +37,8 @@ function initGoogle() {
                 "method": "POST",
                 "headers": {
                   "content-type": "application/json; charset=utf-8",
-                  "authorization": "Bearer qV092kn3TxUpuLdWU9hqCAw5HB7k",
-                  "apikey": "LxbJIASJ7cRseNEATGHd0NgvSR8i3H55",
+                  "authorization": "",
+                  "apikey": "",
                   "transactionid": "5563375",
                   "requesttimestamp": "28/08/2022 10:12:20 AM"
                 },
