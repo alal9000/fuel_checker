@@ -1,5 +1,5 @@
 # Introduction:
-Hi, my name is Aaron Lal from Sydney, Australia and I am proud to be submitting my cs50w capstone project called "Fuel Checker". The application will discover your current geo-location and return the cheapeast fuel within a 2km radius within NSW, Sydney. This readme document is split into 7 sections, each of which explain the application in greater detail. Feel free to jump forward to any particular section in which you are interested. 
+Hi, my name is Aarun Lal from Sydney, Australia and I am proud to be submitting my cs50w capstone project called "Fuel Checker". The application will discover your current geo-location and return the cheapeast fuel within a 2km radius within NSW, Sydney. This readme document is split into 7 sections, each of which explain the application in greater detail. Feel free to jump forward to any particular section in which you are interested. 
 
 ## 0. Project Title:
 Fuel Checker
