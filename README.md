@@ -1,5 +1,5 @@
 # Introduction:
-Hi, This application will discover your current geo-location and return the cheapeast fuel within a 2km radius within NSW, Sydney. This readme document is split into 7 sections, each of which explain the application in greater detail. Feel free to jump forward to any particular section in which you are interested. 
+Hi, consuming the nsw fuel api and the google maps api, this application will discover your current geo-location and return the cheapeast fuel within a 2km radius within NSW, Sydney. This readme document is split into 7 sections, each of which explain the application in greater detail. Feel free to jump forward to any particular section in which you are interested. 
 
 ## 0. Project Title:
 Fuel Checker
